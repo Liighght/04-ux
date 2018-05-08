@@ -9,7 +9,7 @@ html {
 body {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #0f152d;
+    background-color: #f0c9d7;
 }
 
 img {
@@ -18,33 +18,42 @@ img {
 
 /* Fonts */
 
-@font-face {
-    src: url(assets/fonts/Lazer84.ttf);
-    font-family: lazer84;
-}
-
-@font-face {
-    src: url(assets/fonts/Streamster.ttf);
-    font-family: streamster;
-}
-
 a {
-    font-family: lazer84;
-    font-size: 2em;
-    color: #f0e402;
-    background-color: #c11152;
+    font-family: 'Amatic SC', cursive;
+
+    font-size: 3.5em;
+    color: white;
 }
 
 p {
+    font-family: 'Poiret One', cursive;
+
+
+
+
     font-size: 1.8em;
-    font-family: streamster;
     color: white;
 }
 
 h2 {
-    font-family: lazer84;
+    font-family: 'Permanent Marker', cursive;
+
+
+
+
+
     font-size: 3em;
-    color: #f0e402;
+    color: white;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+
+
+
+
+    font-size: 3.8em;
+    color: #c0f0f4;
 }
 
 /* Navigation */
@@ -65,7 +74,7 @@ nav ul li {
 .dropdown > ul {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #c0f0f4;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     z-index: 1;
