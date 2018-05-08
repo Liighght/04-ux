@@ -9,12 +9,42 @@ html {
 body {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: rgba(193, 53, 53, 0.37);
-    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #0f152d;
 }
 
 img {
     width: 100%;
+}
+
+/* Fonts */
+
+@font-face {
+    src: url(assets/fonts/Lazer84.ttf);
+    font-family: lazer84;
+}
+
+@font-face {
+    src: url(assets/fonts/Streamster.ttf);
+    font-family: streamster;
+}
+
+a {
+    font-family: lazer84;
+    font-size: 2em;
+    color: #f0e402;
+    background-color: #c11152;
+}
+
+p {
+    font-size: 1.8em;
+    font-family: streamster;
+    color: white;
+}
+
+h2 {
+    font-family: lazer84;
+    font-size: 3em;
+    color: #f0e402;
 }
 
 /* Navigation */
